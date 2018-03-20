@@ -422,7 +422,7 @@ func prize9() {
     fmt.Println("     oOO                                                                                OOo                +------------+")
     fmt.Println("    oOO                                                                                  OOo               |  £32,000   |")
     fmt.Println("   oOO                                                                                    OOo              +------------+")
-    fmt.Println("  oOO                                                                                      OOo             |** £16,000 *|")
+    fmt.Println("  oOO                                                                                      OOo             |* £16,000 **|")
     fmt.Println(" oOO                                                                                        OOo            +------------+")
     fmt.Println(" oO ███    ███  ██  ██       ██       ██   ██████   ███    ██   █████   ██  ██████   ███████ Oo            |   £8,000   |")
     fmt.Println(" oO ████  ████  ██  ██       ██       ██  ██    ██  ████   ██  ██   ██  ██  ██  ██   ██      Oo            +------------+")

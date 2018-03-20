@@ -90,5 +90,6 @@ func BuildQuestionArray() [15]Round {
             questionArray[i] = hardQuestions[j]
         }
     }
+    fmt.Println(questionArray)
     return questionArray
 }
