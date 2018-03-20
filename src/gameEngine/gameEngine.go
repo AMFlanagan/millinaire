@@ -43,7 +43,6 @@ func askQuestion (i int, question questionGetter.Round) (pass bool, take bool) {
 
     result := marker(answer, correctAnswer)
     pass = result
-    fmt.Println(result)
     return
 }
 
@@ -83,7 +82,6 @@ func returnPrize (i int, take bool) {
 func RunGame() {
     questions := questionGetter.BuildQuestionArray()
     for i, r := range questions {
-        fmt.Println(i)
         pass, take := askQuestion(i, r)
         if take == true {
             returnPrize(i, true)
